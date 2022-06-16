@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/icon_group.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Formulario_html</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+            <img src="../img/img_group2.png" alt="" width="46" height="30" class="d-inline-block align-text-top">
+            Datacorp
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto ">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="extension_para_navegador.html">Extensión para navegador</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="investigacion.html">Tema de investigación</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="cuenta_de_twitter.html">Cuenta de Twitter</a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link active" href="tweet.html">Tweet</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="blog.html">Blog </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="recursos.html">Recursos</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <div class="container-cont-page">
+        <h1>Preguntas</h1>
+        <br><br>
+        <div class="container grid-2">
+            <div id="form1">
+                <br>
+                <form action="">
+                    <div class="form">
+                        <label >Nombre:
+                            <input type="text" required>
+                        </label><br><br>
+                    </div>
+                    <div class="form">
+                        <label > Que entiendes por Saas? <br>
+                            <input type="radio"> Es un navegador <br>
+                            <input type="radio"> Plataforma de streaming <br>
+                            <input type="radio"> Es un modelo de prestación de servicios en la nube <br>
+                        </label><br><br>
+                    </div>
+                    <div class="form">
+                        <label > Cual de las 3 opciones vistas es la que mas utilizas? <br>
+                            <input type="text" size="40">
+                        </label><br><br>
+                    </div>
+                    
+                    <div class="form">
+                        <label> A que plataforma corresponde el office 365? <br>
+                            <input type="checkbox" > Saas <br>
+                            <input type="checkbox" > Paas <br>
+                            <input type="checkbox" > Iaas <br>
+                        </label><br><br>
+                    </div>
+                    
+                    <div class="form">
+                        <legend> Microsoft Azure a que plataforma corresponde</legend>
+                        <label for="td">Respuesta</label>
+                        <br>
+                        <select id="">
+                            <option value="Saas">Saas</option>
+                            <option value="Paas"> Paas</option>
+                            <option value="Iaas"> Iaas</option>
+                        </select>
+                        <br><br>
+                    </div>
+                    <div class="form">
+                        <legend>El Iaas es un/una:</legend>
+                        <label>Opciones</label>
+                        <br>
+                        <select>
+                            <option>Prestación de servicio en la nube</option>
+                            <option>Infraestructura como servicio</option>
+                            <option>Software como servicio</option>
+                        </select>
+                        <br><br>
+                    </div>
+                    
+                    <div class="form">
+                        <label> Breve conclusion acerca de los 3 puntos</label><br>
+                        <label>
+                            <textarea cols="40" rows="10"> </textarea>
+                        </label>
+                    </div>
+            
+                    <div class="form">
+                        <fieldset>
+                            <legend>Paas</legend>
+                            <p><label for="">Cual es su funcion:</label></p>
+                            <textarea cols="50" rows="2"> </textarea>
+                        </fieldset>
+                    </div>
+                    <!--<div class="form">
+                        <input type="submit">
+                    </div>-->
+                </form>
+            </div>
+            <div data-content id="form2">
+                <br><br>
+              <!--  <div class="form">
+                    <label >Nombre:
+                        <input type="text" required>
+                    </label>
+                </div>-->
+                <div class="form"><br>
+                    <label > Que entiendes por Saas? <br>
+                        <input type="radio" > Es un navegador <br>
+                        <input type="radio"> Plataforma de streaming <br>
+                        <input type="radio"id="r1"> Es un modelo de prestación de servicios en la nube <br><br>
+                    </label>
+                </div>
+                <div class="form">
+                    <label > Cual de las 3 opciones vistas es la que más utilizas? <br>
+                        <input colum="10" rows="10" type="text" size="40" id="r2">
+                    </label><br><br>
+                </div>
+                <div class="form">
+                    <label> A que plataforma corresponde el office 365?<br>
+                        <input type="checkbox" id="r3"> Saas <br>
+                        <input type="checkbox" > Paas <br>
+                        <input type="checkbox" > Iaas <br>
+                    </label>
+                    <br><br>
+                </div>
+                <div class="form">
+                    <legend> Microsoft Azure a que plataforma corresponde</legend>
+                    <label for="td">Respuesta</label>
+                    <br>
+                    <select id="td">
+                        <option value="Saas">Saas</option>
+                        <option value="Paas"> Paas</option>
+                        <option value="Iaas"> Iaas</option>
+                    </select>
+                </div>
+
+                <br>
+                <div class="form">
+                    <legend>El Iaas es un/una:</legend>
+                    <br>
+                    <label for="td2">Opciones</label><br>
+                    
+                    <select id="td2">
+                        <option>Prestación de servicio en la nube</option>
+                        <option>Infraestructura como servicio</option>
+                        <option>Software como servicio</option>
+                    </select>
+                    <br><br>
+                </div>
+                
+                <div class="form">
+                    <label> Breve conclusion acerca de los 3 puntos</label><br>
+                    <label>
+                        <textarea cols="40" rows="10" id="r6"> </textarea>
+                    </label>
+                </div>
+        
+                <div class="form">
+                    <fieldset>
+                        <legend>Paas</legend>
+                        <p><label for="">Cual es su funcion:</label></p>
+                        <textarea cols="50" rows="2" id="r7"> </textarea>
+                    </fieldset>
+                </div>
+                <!--
+                    <ion-icon name="add"></ion-icon>
+                </ion-fab-button>
+                <div class="form">
+                    <input type="submit">
+                </div>
+                -->
+                <br><br>
+            </div>
+        </div>
+        
+    </div>
+    <!--<button id="form2" onclick="mostrar();">Mostrar Respuesta </button> -->
+    <div class="container-butom">
+        <div>
+            <!--<button id="form_2" onclick="ocultar();">Ocultar Respuestas</button>-->
+            <button id="form_2" onclick="mostrar();cargar();">Mostrar Respuestas</button>
+        </div>
+    </div>
+    <script>
+        function mostrar(){
+            document.getElementById('form2').style.display ='block';
+        }
+        /*function ocultar(){
+            document.getElementById('form_2').style.display='none';
+        }*/
+    </script>
+    <script>
+        /*Asignar los valores*/
+        function cargar(){
+            document.getElementById('r1').checked = true;
+            document.getElementById('r2').value = 'Las opciones vistas mas utilizo es el Saas';
+            document.getElementById('r3').checked = true;
+            document.getElementById('td').value = 'Iaas';
+            document.getElementById('td2').value = 'Infraestructura como servicio';
+            document.getElementById('r6').value = '';
+            document.getElementById('r7').value = 'La funcion del Paas es brindar servicios en la nube a velocidad sin importar los recursos del hardware';
+            document.getElementById('r8').value = 'hola';
+        }
+    </script>
+    <div class="footer">
+        <div class="footer-content">
+            <h3>&copy;2022 - Datacorp</h3>
+        </div>
+    </div>
+</body>
+</html>

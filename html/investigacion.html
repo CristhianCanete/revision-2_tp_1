@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/icon_group.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <script src="../js/script.js" defer></script>
+    <title>Tema de investigación</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+            <img src="../img/img_group2.png" alt="" width="46" height="30" class="d-inline-block align-text-top">
+            Datacorp
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto ">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="extension_para_navegador.html">Extensión para navegador</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="investigacion.html">Tema de investigación</a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link active" href="cuenta_de_twitter.html">Cuenta de Twitter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="tweet.html">Tweet</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="blog.html">Blog </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="recursos.html">Recursos</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container-cont-page">
+    
+<div class="menu">
+    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#Iaas">Iaas</button>
+    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#Paas">Paas</button>
+    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#Saas">Saas</button>
+</div>
+    <center>
+        <img src="../img/iaas-saas-paas.png" alt="">
+    </center>
+    <br>
+<div class="content">
+    <div data-content id="Iaas">
+        <h3>Concepto</h3>
+        <br>
+        <div class="container-textos">
+            <p>Cuando nos referimos a IaaS, estamos hablando de infraestructuras como servicio. Las empresas contratan la infraestructura de hardware a un tercero a cambio de una cuota o alquiler. La contratación de este hardware permite elegir la capacidad de proceso (procesadores), la memoria a utilizar (memoria RAM) y el espacio de almacenamiento (disco duro). </p>
+            <p>IaaS ofrece también servicios de virtualización como máquinas virtuales, cortafuegos, sistemas de backups o balanceadores de carga.</p>
+            <p>IaaS es la base del servicio y contiene los bloques fundamentales para la TI en la nube, pues proporciona los servicios y estructuras necesarios sobre los cuales se construyen los otros servicios.</p>
+        </div>
+        <br>
+        <h5>Ejemplos de IaaS</h5>
+        <br>
+        <div class="container-textos">
+            <p>Amazon Web Services y Microsoft Azure son dos claros ejemplos de infraestructura como servicios</p>
+    
+        </div>    
+    </div>
+    <div data-content id="Paas">
+        <h3>Concepto</h3>
+        <br>
+        <div class="container-textos">
+            <p>El servicio PaaS ofrece plataformas como servicios. En estas plataformas se pueden lanzar aplicaciones como bases de datos, middleware, herramientas de desarrollo, servicios de inteligencia empresarial, etc. </p>
+            <p>Este tipo de servicios es el ideal para los desarrolladores que sólo quieran centrarse en la implementación y administración de sus aplicaciones. Al no tener que preocuparse por los recursos de hardware y software (sistemas operativo), mejoran su eficacia, centrándose sólo en la parte que les interesa.</p>
+            <p>PaaS es la más complicada de entender debido a que el término plataforma puede confundirse con software. Una plataforma es un software de por sí, que permite desarrollar aplicaciones.</p>
+        </div>
+        <br>
+        <h5>Ejemplos de PaaS</h5>
+        <br>
+        <div class="container-textos">
+            <p> Google App Engine y Bungee Connect son dos ejemplos de plataformas como servicios</p>
+        </div>
+        
+    </div>
+    <div data-content id="Saas">
+        <h3>Concepto</h3>
+        <br>
+        <div class="container-textos">
+            <p>Este modelo de software como infraestructura, aloja el software de la empresa, así como sus datos, en servidores externos a la misma, y paga una cuota por su utilización. Cualquier empleado de una empresa podrá acceder desde cualquier lugar a las aplicaciones de la empresa sin necesidad de instalarlas en un equipo local. Cuando hablamos de software en la nube estamos hablando de SaaS.</p>
+            <p>Con un SaaS la preocupación de la empresa será sólo cómo utilizar los programas de software necesarios para su funcionamiento, olvidándose del resto de recursos. El hardware requerido, sistemas operativos, aplicaciones, etc. son provistas por el proveedor del servicio que, además, se encarga de mantenerlas funcionando correctamente y actualizadas.</p>
+            <p>Todos los usuarios acceden diariamente a aplicaciones SaaS ya que se puede decir que, cualquier aplicación online que se ejecuta en la nube y que se pueda acceder a ella a través de internet, es una aplicación SaaS.</p>
+        </div>
+        <br>
+        <h5>Ejemplos de SaaS</h5>
+        <br>
+        <div class="container-textos">
+            <p>Servicios como Microsoft Office 365 y CMS para diseño de páginas web como WordPress</p>
+            <p>Microsoft Office 365: Con esta plataforma de Microsoft los usuarios pueden acceder a las herramientas de ofimática de Microsoft (Word, Excel, Access, PowerPoint, etc.) desde cualquier dispositivo, que se ejecutan en servidores de Microsoft. El usuario sólo se preocupa de utilizar la aplicación sin tener nada que ver con su instalación, mantenimiento y actualización.</p>
+            <p>WordPress: La instalación de WordPress en un servidor para diseñar una página web, da como resultado un sitio o página web que es accesible para los usuarios desde cualquier dispositivo, a través de internet. WordPress es un software que se está ejecutando en un servidor remoto donde el usuario interactúa con él sin tener nada que ver con la infraestructura necesaria para su funcionamiento.</p>
+        </div>
+    </div>
+    
+    
+</div>
+
+</div>
+<div class="container-textos">
+    <a href="Formulario.html" class="btn btn-primary btn-lg active" role="button">Ir al formulario</a>
+    <a href="videos.html" class="btn btn-primary btn-lg active">Ir al video</a>
+    <br><br>
+</div>
+<div class="footer">
+    <div class="footer-content">
+        <h3>&copy;2022 - Datacorp</h3>
+    </div>
+</div>
+</body>
+</html>
